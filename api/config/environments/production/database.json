@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds257590.mlab.com",
+        "port": "57590",
+        "database": "strapiapi",
+        "username": "Soulkaiser",
+        "password": "Spiderman9!"
+      },
+      "options": {
+        "ssl": false,
+        "authenticationDatabase": "strapiapi"
+      }
+    }
+  }
+}
